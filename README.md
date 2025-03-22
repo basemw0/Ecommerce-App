@@ -108,10 +108,5 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 🔹 Create a new feature branch.  
 🔹 Submit a **pull request** with a clear description.  
 
----
-## 💡 Acknowledgments
-🌟 Built with **JavaFX** for a sleek and interactive UI.  
-🌟 Designed with scalability in mind, with future database integration potential.  
 
-🚀 Happy Coding! ✨
 
