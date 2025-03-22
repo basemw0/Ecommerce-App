@@ -111,4 +111,7 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 
 ### ✨ Author
 [Basem Walid](https://github.com/basemw0)
+[Amir Tamer](https://github.com/amirtamer-27)
+[Adham Walid](https://github.com/adhamthearray)
+
 
