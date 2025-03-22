@@ -108,5 +108,6 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 🔹 Create a new feature branch.  
 🔹 Submit a **pull request** with a clear description.  
 
-
+### ✨ Author
+[Basem Walid](https://github.com/basemw0)
 
