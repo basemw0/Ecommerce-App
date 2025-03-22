@@ -39,9 +39,9 @@ The application uses FXML files for UI layouts, a CSS file for styling, and an i
 ## Project Structure
 - **`main`**:  
   - `App.java`: Entry point, initializes sample data (users, products) and loads `welcomePage.fxml`.  
-- **`controllers`** (25 files):  
+- **`controllers`** :  
   - JavaFX controllers linking FXML views to logic (e.g., `LoginController`, `CartController`, `addProduct`).  
-- **`models`** (14 files):  
+- **`models`** :  
   - `Database`: In-memory storage for all data.  
   - `Customer`, `Supplier`, `Admin`: User classes extending `Person`.  
   - `SupplierProduct`, `CustomerProduct`: Product classes for stock and cart management.  
@@ -49,7 +49,7 @@ The application uses FXML files for UI layouts, a CSS file for styling, and an i
   - `PromoCode`: Defines discount codes with rules.  
   - `Category`, `Product`, `View`: Support categorization and display.  
   - `App`: Console-based demo (not GUI-integrated).  
-- **`view`** (15 files):  
+- **`view`** :  
   - FXML files (e.g., `welcomePage.fxml`, `custfxml.fxml`, `myCart.fxml`) for UI layouts.  
   - `style.css`: Stylesheet for visual customization.  
 
