@@ -109,7 +109,7 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 🔹 Submit a **pull request** with a clear description.  
 ---
 
-### ✨ Author
+### ✨ Authors
 [Basem Walid](https://github.com/basemw0)
 
 [Amir Tamer](https://github.com/amirtamer-27)
