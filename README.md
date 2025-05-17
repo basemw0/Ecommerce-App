@@ -66,7 +66,7 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 ## 🚀 Setup Instructions
 1️⃣ **Clone the Repository:**  
    ```bash
-   git clone <repository-url>
+   git clone <(https://github.com/basemw0/Ecommerce-App.git)>
    ```
 2️⃣ **Configure JavaFX:**  
    - Download JavaFX SDK from [openjfx.io](https://openjfx.io/).  
