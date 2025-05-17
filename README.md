@@ -1,6 +1,6 @@
 # StackShop - Java E-Commerce Application
 
-## 📌 Project Overview
+##  Project Overview
 StackShop is a **Java-based e-commerce platform** built with **JavaFX**, offering an interactive user interface for three distinct user roles:
 
 🔹 **Customers** – Browse products, manage carts, place orders, and track order history.  
@@ -10,14 +10,14 @@ StackShop is a **Java-based e-commerce platform** built with **JavaFX**, offerin
 The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-memory database** for data storage. **Session management** is implemented via `UserSession` (customers/admins) and `SuppSession` (suppliers). The application consists of **55 files** across four key folders: `main`, `controllers`, `models`, and `view`.
 
 ---
-## 🎯 Key Features
+##  Key Features
 
-### 🔑 General
+###  General
 ✅ **User Authentication** – Secure login & sign-up with validation (`LoginController`, `SignUpController`).  
 ✅ **Session Management** – Tracks active users (`UserSession`, `SuppSession`).  
 ✅ **Data Storage** – Temporary in-memory storage (`Database` class) for users, suppliers, orders, and more.
 
-### 🛍️ Customer Features
+### 🛍 Customer Features
 🛒 **Product Browsing** – View & search products by category (`ECommerceController`).  
 🛒 **Cart Management** – Modify items, adjust quantities (`CartController`).  
 🛒 **Checkout** – Apply promo codes (`SAVE10`, `SAVE20`), choose payment methods (`CheckoutController`).  
@@ -25,12 +25,12 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 🛒 **Profile Management** – Edit account details (`myProfile`).  
 🛒 **Personalized Interests** – Select preferred categories for recommendations (`CustomerInterestsController`).
 
-### 🏭 Supplier Features
+###  Supplier Features
 📦 **Product Management** – Add, edit, and remove products (`addProduct`, `ProductEditController`).  
 📦 **Supplier Dashboard** – Manage listings & logout (`suppfxmlController`).  
 📦 **Supplier Requests** – Submit account requests (`SignUpRequestController`).
 
-### ⚙️ Admin Features
+###  Admin Features
 📊 **Admin Dashboard** – Manage users, orders, suppliers (`admindashController`).  
 📊 **User Oversight** – View & manage admins (`AdminViewCtr`), customers (`AdminViewCust`).  
 📊 **Supplier Oversight** – Approve or reject registration requests (`SupplierRequestController`).  
@@ -38,7 +38,7 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 📊 **Profile Management** – Update admin details (`myProfileAdmin`).
 
 ---
-## 🏗️ Project Structure
+##  Project Structure
 
 📂 **`main`** –
    - `App.java`: Entry point, initializes sample data and loads `welcomePage.fxml`.
@@ -57,13 +57,13 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
    - **CSS Styling**: Enhances UI with `style.css`.
 
 ---
-## 📌 Prerequisites
+##  Prerequisites
 ✅ **Java Development Kit (JDK)**: Version 8+  
 ✅ **JavaFX SDK**: Version 11+  
 ✅ **IDE**: IntelliJ IDEA, Eclipse, or any JavaFX-supported environment
 
 ---
-## 🚀 Setup Instructions
+##  Setup Instructions
 1️⃣ **Clone the Repository:**  
    ```bash
    git clone <(https://github.com/basemw0/Ecommerce-App.git)>
@@ -80,14 +80,14 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
    - Set `main.App` as the main class and launch.  
 
 ---
-## 🎮 Usage Guide
+##  Usage Guide
 🔹 **Launch** – Run `App.java` to open `welcomePage.fxml`.  
 🔹 **Customers** – Sign up/login, browse products, add to cart, checkout.  
 🔹 **Suppliers** – Request approval, log in, manage products.  
 🔹 **Admins** – Log in, manage users, suppliers, orders.  
 
 ---
-## 📊 Sample Data (Pre-loaded in `App.java`)
+##  Sample Data (Pre-loaded in `App.java`)
 👤 **Customer**: Amir – `Username: AmirtheGoat`, `Balance: $1000`  
 🏭 **Suppliers**:
    - **NADA** (Approved, sells: Protein shake, Greek yogurt)  
@@ -96,14 +96,14 @@ The project utilizes **FXML for UI layouts**, **CSS for styling**, and an **in-m
 📦 **Orders**: Amir’s cart pre-filled with two products.  
 
 ---
-## 🔮 Potential Future Improvements
+##  Potential Future Improvements
 ✅ **Persistent Database Integration** – Use SQLite/MySQL for better data storage.  
 ✅ **Enhanced Admin Features** – Save changes in admin profiles.  
 ✅ **Optimized Category Mapping** – Ensure accurate product categorization.  
 ✅ **Refined UI & UX** – Improve validation messages and design responsiveness.  
 
 ---
-## 🤝 Contributing
+##  Contributing
 🔹 Fork the repository.  
 🔹 Create a new feature branch.  
 🔹 Submit a **pull request** with a clear description.  
